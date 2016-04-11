@@ -384,7 +384,7 @@ public class Window extends JFrame {
 								}
 							}
 							for (Request request : discardRequestList) {
-								staff.removeRequestApplicationList(request);
+								staff.removeRequestHandlingList(request);
 							}
 							discardRequestList.clear();
 						}
