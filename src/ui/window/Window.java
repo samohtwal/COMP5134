@@ -377,7 +377,7 @@ public class Window extends JFrame {
 
 					// remove leave request applied by deletion staff
 					for (Staff staff : staffList) {
-						if (staff.getRequestApplicationList() != null) {
+						if (staff.getRequestHandlingList() != null) {
 							for (Request request : staff.getRequestHandlingList()) {
 								if (request.getApplicant().equals(deletionStaff)) {
 									discardRequestList.add(request);
